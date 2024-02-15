@@ -14,6 +14,10 @@ export class AppComponent {
     {
       name: 'Método de Fabrica (Factory Method)',
       route: 'factory-method'
+    },
+    {
+      name: 'Fabrica Abstracta (Abstract Factory)',
+      route: 'abstract-factory'
     }
   ]
 

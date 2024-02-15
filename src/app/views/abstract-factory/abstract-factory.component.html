@@ -1,0 +1,20 @@
+<p>El patrón de <span>Fabrica abstracta (Abstract Factory)</span> es un patrón de diseño creacional que permite que una superclase o interfaz definan distintos métodos de fabricación de productos u objetos que pertenezcan a una familia o categoria en particular. Los distintos métodos definidos en la interfaz se implementan en fabricas concretas las cuales definen la creacióin de los productos concretos</p>
+<p>En el siguiente ejemplo tenemos una fabrica abstracta de controles web. Donde hay dos fabricas de controles concretos, el primero de controles nativos y el segundo de controles con estilos de angular material</p>
+<p>
+    Fabrica de controles nativos
+</p>
+<button (click)="crearBotonNativo()">Crear Boton Nativo</button>
+<button (click)="crearCheckboxNativo()">Crear Checkbox Nativo</button>
+<br>
+<div #listaBotones>
+
+</div>
+
+<p>
+    Fabrica controles material
+</p>
+<button (click)="crearBotonMaterial()">Crear boton material</button>
+<button (click)="crearMaterialCheckbox()">Crear material checkbox</button>
+<div #listaBotonesMaterial>
+
+</div>
