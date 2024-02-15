@@ -1,0 +1,11 @@
+<h1>Selecciona el patron que deseas revisar</h1>
+
+<ol>
+    @for (route of routes; track route.name ) {
+        <li>
+            <a [routerLink]="route.route">{{ route.name }}</a>
+        </li>
+    }
+</ol>
+
+<router-outlet></router-outlet>
